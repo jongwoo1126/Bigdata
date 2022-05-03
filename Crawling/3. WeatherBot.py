@@ -9,12 +9,6 @@ import requests as req
 from bs4 import BeautifulSoup as bs
 from  datetime import datetime
 
-import os.path
-
-import requests as req
-from bs4 import BeautifulSoup as bs
-from datetime import datetime
-
 # 페이지 요청
 html = req.get('https://www.weather.go.kr/w/obs-climate/land/city-obs.do').text
 #print(html)
